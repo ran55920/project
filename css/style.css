@@ -26,12 +26,56 @@ body {
 }
 
 /* شريط التنبيهات */
-.alert-bar {
-    background-color: var(--warning-color);
-    color: white;
-    padding: 0.5rem;
-    font-size: 0.9rem;
+.banner {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #f7f7f7;
+  border: 2px solid #e0e0e0;
+  margin: 20px 0;
 }
+
+.slider {
+  display: flex;
+  width: 300%; /* إذا كانت ثلاث شرائح */
+  animation: slideAnimation 15s infinite;
+}
+
+.slide {
+  width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.slide-text {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+/* تعريف الحركة */
+@keyframes slideAnimation {
+  0% { transform: translateX(0); }
+  33.33% { transform: translateX(0); }
+  44.44% { transform: translateX(-100%); }
+  77.77% { transform: translateX(-100%); }
+  88.88% { transform: translateX(-200%); }
+  100% { transform: translateX(-200%); }
+}
+
 
 .emergency-alert {
     font-weight: bold;
