@@ -3,7 +3,6 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-//  صور الواجهة الرئيسية
 .slideshow-container {
     position: relative;
     width: 100%;
@@ -35,7 +34,6 @@ body {
 }
 
 
-//nav bar
 .navbar {
     display: flex;
     justify-content: space-between;
