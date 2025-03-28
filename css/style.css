@@ -38,8 +38,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
-    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 40px;
+    background: rgba(0, 51, 153, 0.6);
     position: fixed;
     width: 100%;
     top: 0;
@@ -92,7 +92,7 @@ body {
 }
 
 .signup {
-    background: #00aaff;
+    background: #7AA5D2;
     color: white;
 }
 
