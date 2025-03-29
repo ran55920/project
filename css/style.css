@@ -39,7 +39,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 40px;
-    background: rgba(0, 51, 153, 0.6);
+ background-color: rgba(0, 0, 0, 0.6);
+
     position: fixed;
     width: 100%;
     top: 0;
